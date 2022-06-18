@@ -1,26 +1,15 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>У меня новый домен</title>
-    <meta name="yandex-verification" content="05fadea499b11008" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2789981316306873"
-     crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Login Widget</title>
 </head>
-
 <body>
-    <h1>У меня новый домен, скоро здесь что-то будет.</h1>
-    <img src="https://i.pinimg.com/564x/80/07/89/8007897740592f98baabd85f2b6b806e.jpg">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2789981316306873"
-     crossorigin="anonymous"></script>
-<!-- 123 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2789981316306873"
-     data-ad-slot="3027055800"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+<script async src="https://telegram.org/js/telegram-widget.js?19" data-telegram-login="integralspbot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+<script type="text/javascript">
+  function onTelegramAuth(user) {
+    alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+  }
 </script>
-    
 </body>
-
+</html>
